@@ -1,0 +1,240 @@
+body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(backg.jpg);
+    font-family: 'Numans', sans-serif;
+    margin-bottom: 500px;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(ank.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff0000;
+    width: 150px;
+    height: 100px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 48px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff0000;
+}
+
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+    position: relative;
+    width: 330px;
+    height: 200px;
+    background-color: aliceblue;
+    border: 1px solid rgb(75, 109, 113);
+    border-radius: 20px;
+    box-shadow: -10px 5px 10px;
+    top:80px;
+    float: left;
+    transition: top ease 0.5s;
+    padding: 20px 12px;
+    margin: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%,rgba(0,0,0,0.8)50%),url(sd.jpg);
+    background-position: center;
+    color: blanchedalmond;
+}
+.box:hover{
+    top: -50px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+    position: relative;
+    width: 320px;
+    height: 200px;
+    background-color: aliceblue;
+    border: 1px solid rgb(75, 109, 113);
+    border-radius: 20px;
+    box-shadow: -10px 5px 10px;
+    top:80px;
+    transition: top ease 0.5s;
+    float: left;
+    padding: 20px 12px;
+    margin: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%,rgba(0,0,0,0.8)50%),url(tata1.jpg);
+    color: blanchedalmond;
+    background-position: center;
+}
+
+.box1:hover{
+    top: -50px;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+    position: relative;
+    width: 330px;
+    height: 200px;
+    background-color: aliceblue;
+    border: 1px solid rgb(75, 109, 113);
+    border-radius: 20px;
+    box-shadow: -10px 5px 10px;
+    top:80px;
+    transition: top ease 0.5s;
+    float: left;
+    padding: 20px 12px;
+    margin: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%,rgba(0,0,0,0.8)50%),url(mg.jpg);
+    background-position: center;
+    color: blanchedalmond;
+}
+.box2:hover{
+    top: -50px;
+}
+.about{
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    background-size: cover;
+}
+.img{
+    height: 130px;
+    width: 200px;
+    float: left;
+    border-radius: 20px ;
+}
+.box p{
+    text-align: center;
+}
+
+/*foooter*/
+footer{
+    width: 100%;
+    position:relative;
+    bottom: 0;
+    background: linear-gradient(to right,#652424,#ffffffa6);
+    color: rgb(35, 9, 9);
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    border-top-right-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 10px;
+    font-family: 'Numans', sans-serif;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25;
+    padding: 10px;
+}
+.logo{
+    width: 150px;
+    margin-bottom: 30px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+
+}
+form .far{
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+form button .fas{
+    font-size: 16px;
+    color: rgb(9, 9, 9);
+}
+.top{
+    margin-top: 20px;
+    font-size: 50px;
+    padding: 13px;
+    color: antiquewhite;
+    margin-top: 23px;
+}
